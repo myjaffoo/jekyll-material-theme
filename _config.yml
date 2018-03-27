@@ -11,24 +11,24 @@ parallax_image_two: assets/images/startup3.jpg
 
 project_one: "First Project"
 project_one_description: Describe your project!
-project_one_url: https://github.com/jameshamann/jekyll-material-theme
+project_one_url: https://github.com/myjaffoo
 project_one_icon: location_on
 
 project_two: Second Project
 project_two_description: Describe your project!
-project_two_url: https://github.com/jameshamann/jekyll-material-theme
+project_two_url: https://github.com/myjaffoo
 project_two_icon: photo_camera
 
 
 project_three: Third Project
 project_three_description: Describe your project!
-project_three_url: https://github.com/jameshamann/jekyll-material-theme
+project_three_url: https://github.com/myjaffoo
 project_three_icon: hotel
 
 
 project_four: Fourth Project
 project_four_description: Describe your project!
-project_four_url: https://github.com/jameshamann/jekyll-material-theme
+project_four_url: https://github.com/myjaffoo
 project_four_icon: restaurant
 
 portfolio_heading: Portfolio
@@ -144,7 +144,7 @@ colored: colored # Leave blank for black and white icons
 
 project_button: Github
 
-github: https://github.com/jameshamann/jekyll-material-theme
+github: https://github.com/myjaffoo
 medium: https://medium.com
 
 baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
