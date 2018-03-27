@@ -1,5 +1,5 @@
 title: Mohammud Yassine Jaffoo
-name: Mohammud Yassine Jaffoo
+name: MYJaffoo
 email: yas360@hotmail.co.uk
 description: Solutions Architect, Platform Engineer &amp DevOps Practitioner
 
@@ -9,9 +9,9 @@ url: ""
 parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
 parallax_image_two: assets/images/startup3.jpg
 
-project_one: "First Project"
-project_one_description: Describe your project!
-project_one_url: https://github.com/myjaffoo
+project_one: "Creating and Hosting www.myjaffoo.co.uk"
+project_one_description: Building a SSL-enabled static website with a custom domain using GitHub Pages and Jekyll template.
+project_one_url: https://github.com/myjaffoo/myjaffoo.github.io
 project_one_icon: location_on
 
 project_two: Second Project
