@@ -1,7 +1,7 @@
 title: Mohammud Yassine Jaffoo
 name: MYJaffoo
 email: yas360@hotmail.co.uk
-description: Solutions Architect, Platform Engineer &amp DevOps Practitioner
+description: Solutions Architect | Platform Engineer | DevOps Advocate
 
 baseurl: "/blog"
 url: ""
@@ -9,8 +9,8 @@ url: ""
 parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
 parallax_image_two: assets/images/startup3.jpg
 
-project_one: "Creating and Hosting www.myjaffoo.co.uk"
-project_one_description: Building a SSL-enabled static website with a custom domain using GitHub Pages and Jekyll template.
+project_one: "Creating and Hosting my website"
+project_one_description: Building a SSL-enabled static website with a custom domain using GitHub Pages and Jekyll template. <br><br>Get started with GitHub Pages <a href="https://help.github.com/categories/github-pages-basics/">here</a>.<br>Get started with Jekyll <a href="https://jekyllrb.com/docs/home/">here</a>.
 project_one_url: https://github.com/myjaffoo/myjaffoo.github.io
 project_one_icon: location_on
 
@@ -39,105 +39,31 @@ syntax_highlighting: true
 
 skills:
   - name: amazonwebservices
-  - name: android
-  - name: angularjs
   - name: apache
-  - name: appcelerator
-  - name: apple
-  - name: atom
-  - name: babel
-  - name: backbonejs
   - name: bitbucket
-  - name: bootstrap
-  - name: bower
-  - name: c
-  - name: chrome
-  - name: codeigniter
-  - name: coffescript
   - name: confluence
-  - name: cplusplus
-  - name: csharp
-  - name: css3
-  - name: cucumber
-  - name: d3js
-  - name: debian
-  - name: devicon
-  - name: django
   - name: docker
-  - name: doctrine
-  - name: dot-net
-  - name: drupal
-  - name: erlang
-  - name: facebook
-  - name: firefox
-  - name: foundation
   - name: gatling
-  - name: gimp
   - name: git
   - name: github
   - name: gitlab
   - name: go
-  - name: google
-  - name: gradle
-  - name: grunt
-  - name: gulp
-  - name: heroku
-  - name: html5
-  - name: ie10
-  - name: illustrator
-  - name: inkscape
-  - name: itellij
-  - name: java
-  - name: jasmine
-  - name: javascript
-  - name: laravel
-  - name: less
   - name: linux
-  - name: meteor
-  - name: mocha
-  - name: mongodb
-  - name: moodle
   - name: mysql
   - name: nginx
   - name: nodejs
-  - name: nodewebkit
   - name: oracle
-  - name: photoshop
-  - name: php
-  - name: phpstorm
-  - name: protractor
   - name: postgresql
   - name: python
-  - name: pycharm
-  - name: rails
-  - name: react
   - name: redhat
   - name: redis
   - name: ruby
-  - name: rubymine
-  - name: safari
-  - name: sass
-  - name: sequelize
   - name: slack
-  - name: sourcetree
-  - name: ssh
-  - name: swift
-  - name: symfony
   - name: tomcat
-  - name: travis
   - name: trello
   - name: twitter
-  - name: typescript
   - name: ubuntu
   - name: vim
-  - name: visualstudio
-  - name: vuejs
-  - name: webpack
-  - name: webstorm
-  - name: windows8
-  - name: wordpress
-  - name: yii
-  - name: zend
 
 icon_size: 50 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
