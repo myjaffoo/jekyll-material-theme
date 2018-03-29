@@ -6,8 +6,8 @@ description: Solutions Architect | Platform Engineer | DevOps Advocate
 baseurl: "/blog"
 url: ""
 
-parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/startup3.jpg
+parallax_image_one: assets/images/laptop-landing.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/laptop-landing.jpg
 
 project_one: "Creating and Hosting my website"
 project_one_description: Building a SSL-enabled static website with a custom domain using GitHub Pages and Jekyll template. <br><br>Get started with GitHub Pages <a href="https://help.github.com/categories/github-pages-basics/">here</a>.<br>Get started with Jekyll <a href="https://jekyllrb.com/docs/home/">here</a>.
