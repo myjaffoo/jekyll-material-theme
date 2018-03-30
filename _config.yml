@@ -10,13 +10,13 @@ parallax_image_one: assets/images/laptop-landing.jpg # These are the images used
 parallax_image_two: assets/images/laptop-landing.jpg
 
 project_one: "Creating and Hosting my website"
-project_one_description: Building a SSL-enabled static website with a custom domain using GitHub Pages and Jekyll template. <br><br>Get started with GitHub Pages <a href="https://help.github.com/categories/github-pages-basics/">here</a>.<br>Get started with Jekyll <a href="https://jekyllrb.com/docs/home/">here</a>.
+project_one_description: A SSL-enabled static website with a custom domain using GitHub Pages and Jekyll template. <br><br>Get started with GitHub Pages <a href="https://help.github.com/categories/github-pages-basics/">here</a>.<br>Get started with Jekyll <a href="https://jekyllrb.com/docs/home/">here</a>.<br><br>Blog coming soon!
 project_one_url: https://github.com/myjaffoo/myjaffoo.github.io
 project_one_icon: location_on
 
-project_two: Raspberry Pi Zero W
-project_two_description: Coming soon!
-project_two_url: https://github.com/myjaffoo
+project_two: Raspberry Pi Zero W as a network-wide advertisement blocker
+project_two_description: A DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.<br><br>Blog coming soon!
+project_two_url: https://github.com/pi-hole/pi-hole
 project_two_icon: photo_camera
 
 
@@ -71,7 +71,8 @@ colored: colored # Leave blank for black and white icons
 project_button: Github
 
 github: https://github.com/myjaffoo
-medium: https://medium.com
+linkedin: https://www.linkedin.com/in/myjaffoo
+twitter: https://twitter.com/YassineJaffoo
 
 baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
 url: http://localhost:4000/ #the url of your site
