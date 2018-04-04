@@ -2763,7 +2763,13 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 1000px;
+}
+
+.parallax-container.not-landing {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
 }
 
 .parallax-container .parallax {
@@ -3373,6 +3379,11 @@ nav ul a span.badge {
   width: 90%;
 }
 
+.container .header{
+  animation-name: fadeInContainerHeader;
+  animation-duration: 3s;
+}
+
 @media only screen and (min-width: 601px) {
   .container {
     width: 85%;
@@ -3385,9 +3396,47 @@ nav ul a span.badge {
   }
 }
 
-.container .row {
+@keyframes fadeInContainerHeader {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInContainerRowHeader {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 1;
+  }
+}
+
+.container .row .header{
   margin-left: -0.75rem;
-  margin-right: -0.75rem;
+  margin-right: -0.75rem;ƒƒs
+  animation-name: fadeInContainerRowHeader;
+  animation-duration: 5s;
 }
 
 .section {
@@ -8318,10 +8367,19 @@ input[type=range]:focus::-ms-fill-upper {
   visibility: visible;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-  -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
 }
 
 .tap-target {
@@ -8377,10 +8435,19 @@ input[type=range]:focus::-ms-fill-upper {
 
 .tap-target-wave::after {
   visibility: hidden;
-  -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s;
-  transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s,
+ -webkit-transform .3s;
   z-index: -1;
 }
 
