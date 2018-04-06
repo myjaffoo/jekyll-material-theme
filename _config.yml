@@ -35,7 +35,10 @@ portfolio_heading: Portfolio
 portfolio_type: cards
 
 about_heading: About me
-about_description: Platform engineer and certified AWS Solutions Architect with 4+ years experience in lean and agile DevOps transformation. Worked with open source and cloud native technologies to design, build and support large scale system integration and high volume real-time cloud-based services. Designed and built continuous integration and delivery pipelines to describe, build, test, release and monitor infrastructure and software. Passionate about technology and keen to take on new challenges.
+about_description_one: I am a platform engineer and certified AWS Solutions Architect with 4+ years experience in lean and agile DevOps transformation. I have worked with open source and cloud native technologies to build and support large scale system integration and high volume real-time cloud-based services.
+about_description_two: I am able to leverage Cloud offerings to design and build fault tolerant and cost effective systems. I can translate client requirements into logical, network and physical designs that drive continuous integration and delivery pipelines to describe, build, test, release and monitor infrastructure and software.
+about_description_three: I am passionate about technology and keen to take on new challenges.
+about_photo: assets/images/myjaffoo.png
 
 syntax_highlighting: true
 # Skill icons from https://konpa.github.io/devicon/

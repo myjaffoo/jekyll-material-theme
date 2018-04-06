@@ -17,13 +17,22 @@
   </div>
 </div>
 
-<div class="container" style="padding:20px;">
-  <div id="about" class="section scrollspy">
 
-    <h3 style="text-align:center;">{{site.about_heading}}</h3>
-
-    <p class="flow-text" style="text-align:center">{{ site.about_description }}</p>
-
+<div id="about" class="col s12 m8 offset-m2 l6 offset-l3 section scrollspy" style="padding:20px;">
+  <h3 style="text-align:center;">{{site.about_heading}}</h3>
+  <div class="card-panel grey lighten-5 z-depth-1">
+    <div class="row valign-wrapper">
+      <div class="col s2">
+        <img src="{{site.about_photo}}" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+      </div>
+      <div class="col s10">
+        <p class="flow-text" style="text-align:center">
+          {{ site.about_description_one }}<br><br>
+          {{ site.about_description_two }}<br><br>
+          {{ site.about_description_three }}
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 
