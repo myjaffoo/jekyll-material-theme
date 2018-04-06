@@ -34,6 +34,9 @@ project_four_icon: restaurant
 portfolio_heading: Portfolio
 portfolio_type: cards
 
+about_heading: About me
+about_description: Platform engineer and certified AWS Solutions Architect with 4+ years experience in lean and agile DevOps transformation. Worked with open source and cloud native technologies to design, build and support large scale system integration and high volume real-time cloud-based services. Designed and built continuous integration and delivery pipelines to describe, build, test, release and monitor infrastructure and software. Passionate about technology and keen to take on new challenges.
+
 syntax_highlighting: true
 # Skill icons from https://konpa.github.io/devicon/
 
@@ -79,7 +82,7 @@ url: http://localhost:4000/ #the url of your site
 
 # Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
 tag_manager_id: # This looks something like GTM-XXXXXXX
-google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+google_analytics_tracking_id: UA-116916261-1
 
 cookies_banner: none # The value "show" will show the cookies banner, the value "none" will hide the banner.
 
