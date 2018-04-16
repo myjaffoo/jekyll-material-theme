@@ -2744,7 +2744,7 @@ video.responsive-video {
   color: rgba(255, 255, 255, 0.7);
   vertical-align: top;
   display: inline-block;
-  font-family: 'Material Icons';
+  font-family: 'Material Icons';grey
   font-weight: normal;
   font-style: normal;
   font-size: 25px;
@@ -2763,7 +2763,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 1000px;
+  height: 900px;
 }
 
 .parallax-container.not-landing {
@@ -2885,9 +2885,10 @@ ul.staggered-list li {
 }
 
 .page-footer {
-  padding-top: 20px;
   color: #fff;
   background-color: #cfd8dc;
+  text-align: center;
+
 }
 
 .page-footer .footer-copyright {
@@ -3379,11 +3380,6 @@ nav ul a span.badge {
   width: 90%;
 }
 
-.container .header{
-  animation-name: fadeInContainerHeader;
-  animation-duration: 3s;
-}
-
 @media only screen and (min-width: 601px) {
   .container {
     width: 85%;
@@ -3396,51 +3392,19 @@ nav ul a span.badge {
   }
 }
 
-@keyframes fadeInContainerHeader {
-  0% {
-    opacity: 0;
-  }
-
-  25% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  75% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeInContainerRowHeader {
-  0% {
-    opacity: 0;
-  }
-
-  25% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  75% {
-    opacity: 1;
-  }
+.container .header{
+  padding-top: 300px;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;ƒƒs
 }
 
 .container .row .header{
   margin-left: -0.75rem;
   margin-right: -0.75rem;ƒƒs
-  animation-name: fadeInContainerRowHeader;
-  animation-duration: 5s;
 }
 
 .section {
-  padding-top: 1rem;
+  padding-top: 0rem;
   padding-bottom: 1rem;
 }
 
@@ -4458,7 +4422,7 @@ nav .input-field label.active i {
 
 .navbar-fixed nav {
   position: fixed;
-  background-color: white
+  background-color: black;
 }
 
 @media only screen and (min-width: 601px) {
@@ -4466,8 +4430,8 @@ nav .input-field label.active i {
     min-height: 64px;
   }
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 64px;
-    line-height: 64px;
+    height: 50px;
+    line-height: 50px;
   }
   .navbar-fixed {
     height: 64px;
@@ -9466,3 +9430,40 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/
 }
+
+
+/**
+ * Social media icons
+ */
+
+ .social:hover {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+  }
+  .social {
+      -webkit-transform: scale(0.8);
+      /* Browser Variations: */
+
+      -moz-transform: scale(0.8);
+      -o-transform: scale(0.8);
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+  }
+
+ /*
+     Multicoloured Hover Variations
+ */
+  #social-tw:hover {
+      color: #00aced;
+  }
+  #social-li:hover {
+      color: #0077B5;
+  }
+  #social-em:hover {
+      color: #f39c12;
+  }
+  #social-gh:hover {
+    color: #f5f5f5;
+  }

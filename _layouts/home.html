@@ -1,36 +1,63 @@
 {% include head.html %}
 
-  <div id="home" class="section no-pad scrollspy">
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">{{ site.title }}</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">{{ site.description }}</h5>
-        </div>
-        <br><br>
-
-      </div>
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <ul class="right hide-on-med-and-down">
+        <li><a href="https://twitter.com/YassineJaffoo"><i id="social-tw" class="fa fa-twitter-square fa-3x social" style="font-size:26px"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/myjaffoo/"><i id="social-li" class="fa fa-linkedin fa-3x social" style="font-size:26px"></i></a></li>
+        <li><a href="mailto:info@myjaffoo.co.uk"><i id="social-em" class="fa fa-envelope-square fa-3x social" style="font-size:26px"></i></a></li>
+        <li><a href="https://github.com/myjaffoo"><i id="social-gh" class="fa fa-github fa-3x social" style="font-size:26px"></i></a></li>
+      </ul>
     </div>
-    <div class="parallax"><img src="{{site.parallax_image_one}}" alt="Unsplashed background img 1"></div>
-  </div>
+  </nav>
 </div>
 
 
-<div id="about" class="col s12 m8 offset-m2 l6 offset-l3 section scrollspy" style="padding:20px;">
-  <h3 style="text-align:center;">{{site.about_heading}}</h3>
-  <div class="card-panel grey lighten-5 z-depth-1">
-    <div class="row valign-wrapper">
-      <div class="col s2">
-        <img src="{{site.about_photo}}" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+<div id="home" class="section transparent scrollspy">
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 class="header center black-text" style="font-size: 4.2rem">{{ site.title }}</h1>
+        <div class="row center">
+          <h5 class="header col s12 black-text" style="font-size: 1.64rem">{{ site.description }}</h5>
+        </div>
       </div>
-      <div class="col s10">
-        <p class="flow-text" style="text-align:center">
+    </div>
+    <!--<div class="parallax"><img src="{{site.parallax_image_one}}" alt="Unsplashed background img 1"></div>-->
+  </div>
+</div>
+
+<script>
+$('.container .header').textillate({
+  in: { effect: 'splat' },
+  out: { effect: 'foldUnfold', sync: true }
+  });
+$('.container .row .header').textillate({
+  in: { effect: 'splat' },
+  out: { effect: 'foldUnfold', sync: true }
+  });
+
+</script>
+
+<div class="container" style="padding:20px;">
+  <div id="about" class="section scrollspy">
+    <div class="row center col">
+      <div id="profile">
+        <img src="{{site.about_photo}}" class="circle responsive-img">
+      </div>
+      <div id="intro-div" class="card">
+        <br>
+        <p style="font-size: 18px">
           {{ site.about_description_one }}<br><br>
           {{ site.about_description_two }}<br><br>
           {{ site.about_description_three }}
         </p>
+        <!--<div class="row center">-->
+            <!--<a href="cv/cv-file.docx" download="cv-file.docx" class="btn waves-effect waves-light"><i class="material-icons left">arrow_downward</i>Download CV</a>-->
+            <!--<a href="#contact" class="btn waves-effect waves-light"><i class="material-icons left">person</i>Contact Me</a>-->
+        <!--</div>-->
+        <br>
       </div>
     </div>
   </div>
